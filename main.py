@@ -9,18 +9,7 @@ MODEL = MODEL_PATH
 llm = Llama(**LLAMA_SETTINGS)
 
 
-SYSTEM_PROMPT = """
-Du bist ein hilfreicher lokaler KI-Agent.
 
-Du kannst Aufgaben lösen, planen und (später) Tools verwenden.
-
-Wenn du ein Tool benutzen willst, antworte im Format:
-
-TOOL: <toolname>
-ARGS: <argumente>
-
-Wenn kein Tool nötig ist, antworte normal.
-"""
 
 
 history = []
